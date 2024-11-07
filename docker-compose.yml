@@ -1,0 +1,7 @@
+services:
+  app:
+    build: 
+      context: ./backend
+    ports:
+      - "3000:3000"
+    container_name: app_container
