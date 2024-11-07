@@ -1,0 +1,11 @@
+1. Quelle est l’utilité de Docker Compose comparé à l’utilisation directe de Docker pour une application unique ?
+Docker Compose simplifie la gestion des applications multi-conteneurs en permettant de définir et démarrer plusieurs services dans un même 
+fichier docker-compose.yml, ce qui est plus efficace que de démarrer chaque conteneur séparément.
+
+2. Quelles différences observes-tu entre un fichier Dockerfile et un fichier docker-compose.yml ?
+Le Dockerfile décrit la construction d'une image Docker spécifique pour un service donné. Le fichier docker-compose.yml définit la configuration de l'ensemble des 
+services nécessaires à l'application et gère leurs interactions.
+
+3. Comment Docker Compose facilite-t-il la gestion de plusieurs services ? Quels sont les avantages pour le déploiement en équipe ou en production ?
+Docker Compose simplifie le déploiement et la maintenance d’applications multi-services (comme une app web avec une base de données). Il permet aux équipes de partager facilement la configuration de 
+l’environnement et de s’assurer que tous les membres utilisent les mêmes versions et paramètres pour leurs services.
